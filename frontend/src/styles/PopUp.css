@@ -1,0 +1,93 @@
+.popUpDetails{
+    width: 40vw;
+    height: auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 8px 10px -6px #000000;
+    font-family: 'Mulish', sans-serif;
+}
+
+.popUpDetails h2{
+    font-weight: 800;
+}
+
+.popUpButton{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    width: 40vw;
+}
+
+.delivery, .pickUp{
+    width: 40%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.delivery{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 2px 15px 2px 15px;
+}
+.pickUp{
+    background-color: #E5E5E5;
+    padding: 2px 25px 2px 25px;
+}
+
+.popUpContainer{
+    width: 40vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.popUpRow{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin-top: 10px;
+}
+
+.time{
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 480px) {
+    .popUpDetails{
+        width: 80vw;
+        padding: 2px;
+    }
+    .popUpButton{
+        width: 80vw;
+    }
+    .popUpContainer{
+        font-size: 15px;
+        width: 70vw;
+    }
+    .popUpRow{
+        gap: 5%;
+    }
+}
+  
+  /* Media query for medium screens */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .popUpDetails{
+        width: 60vw;
+        padding: 2px;
+    }
+    .popUpButton{
+        width: 50vw;
+    }
+    .popUpContainer{
+        font-size: 15px;
+        width: 70vw;
+    }
+    .popUpRow{
+        gap: 5%;
+    }
+}

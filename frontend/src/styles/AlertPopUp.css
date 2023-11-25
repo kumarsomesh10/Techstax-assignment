@@ -1,0 +1,52 @@
+.alert{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 34vw;
+    height: auto;
+    padding: 30px;
+    position: fixed;
+    top: 30vh;
+    left: 33vw;
+    /* transform: translate(-50%, -50%); */
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    box-shadow: 0 8px 10px -6px #000000;
+}
+
+.alertContainer{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.alertDetails{
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin-top: 15px;
+    flex-direction: column;
+}
+
+.alertOrderId span, .alertTotal span{
+    font-weight: 700;
+}
+
+.alertBtn{
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+
+}
+
+.alertBtn button{
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 5px 25px 5px 25px;
+    background-color: #C4C4C4;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px -6px #000000;
+}
